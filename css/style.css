@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+
+.menu-bar{
+ 	text-align: right;
+ 	height: 180px;
+ 	background-color: #2D3334 ;
+ 	line-height: 180px;
+ }
+
+a{
+	text-decoration: none;
+}
+.menu-bar ul li{
+	display: inline-block;
+}
+.menu-bar ul li a{
+	font-size: 70px;
+	color:#FFF;
+	font-weight: 600;
+	margin: 0px 35px;
+	transition: 0.25s;
+}
+.menu-bar ul li a:hover{
+	color: #92B7BC;
+	font-size: 80px;
+	transition: 0.25s;
+}
+
+/*Backgound Image*/
+
+.banner{
+	background-image: url(../Image/Banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner h3 p{
+	text-align: center;
+	font-size: 119px;
+	font-family: Crimson;
+	color: white;
+	padding-top: 50px;
+}
+.mainbox{
+    background-color: #D1D8D8 ;
+    width: 25%;
+    height: 68%;
+    margin:0 auto;
+}
+.innerbox{
+	background-color: black;
+	width: 100%;
+	height:10%;
+}
+.innerbox form label p b{
+	font-size: 60px;
+	font-family: Crimson;
+	font-weight: 600%;
+	width: 100%;
+ 
+ 
+}
+.innerbox form input{
+	font-size: 60px;
+	width: 50%;
+	margin: 0 auto;  
+} 
+
+.bottombox{
+	background-color: black;
+	width: 100%;
+	height:20%;
+margin-top: 1300px;
+}
+.social-media{
+	text-align: center; 
+}
+.social-media ul li{
+	display: inline-block;
+	margin-top: 160px;
+}
+.social-media ul li a i{
+	font-size: 55px;
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	color: black;
+	border-radius: 100%;
+	line-height: 90px;
+	margin: 0 30px;
+	transition: 0.25s;
+}
+.social-media ul li a i:hover{
+	background-color: #2D3334;
+	transition: 0.25s;
+	transform: scale(1.3);
+	
+
+
+}
